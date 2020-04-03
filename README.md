@@ -22,7 +22,7 @@ Update guide - see: [https://update.angular.io](https://update.angular.io)
 # install app's dependencies
 $ npm install
 ```
-
+ 
 ## Usage
 
 ``` bash
