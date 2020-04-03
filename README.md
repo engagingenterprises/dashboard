@@ -31,6 +31,14 @@ $ ng serve --host 0.0.0.0 --port 5000
 
 # build for production with minification
 $ ng build
+
+# All the compiled files are flattened into dist directory
+# If you want to run local on the dist directory, install http-server.
+npm install http-server -g
+
+# Now just run it with the directory:
+http-server dist/
+
 ```
 
 ## Copyright and license
