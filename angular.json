@@ -16,7 +16,9 @@
             "main": "src/main.ts",
             "tsConfig": "src/tsconfig.app.json",
             "polyfills": "src/polyfills.ts",
-           
+            "assets": [
+              "src/assets"
+            ],
             "styles": [
               "node_modules/@coreui/icons/css/coreui-icons.css",
               "node_modules/flag-icon-css/css/flag-icon.css",
