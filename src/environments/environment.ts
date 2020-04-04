@@ -4,5 +4,7 @@
 // The list of which env maps to which file can be found in `.angular-cli.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  serverURL:'https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest',
+  crossAnywhere: 'https://cors-anywhere.herokuapp.com/'
 };

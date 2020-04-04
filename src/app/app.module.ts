@@ -12,7 +12,7 @@ const DEFAULT_PERFECT_SCROLLBAR_CONFIG: PerfectScrollbarConfigInterface = {
 };
 
 import { AppComponent } from './app.component';
-
+import { HttpClientModule } from '@angular/common/http'; 
 // Import containers
 import { DefaultLayoutComponent } from './containers';
 
@@ -54,7 +54,8 @@ import { ChartsModule } from 'ng2-charts';
     PerfectScrollbarModule,
     BsDropdownModule.forRoot(),
     TabsModule.forRoot(),
-    ChartsModule
+    ChartsModule,
+    HttpClientModule
   ],
   declarations: [
     AppComponent,
